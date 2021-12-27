@@ -1,4 +1,9 @@
 pipeline {
+
+    agent {
+        label 'android'
+    }
+
     stages {
 
         //Just build the project
